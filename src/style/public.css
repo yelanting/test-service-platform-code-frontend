@@ -1,0 +1,21 @@
+.modal-open {
+  overflow-y: scroll;
+}
+
+.container {
+  padding-right: 15px !important;
+}
+
+/**
+* 自定义图标
+*/
+.el-icon-my-zentao {
+  background: url(/src/assets/my-icon/zentao.jpg) center no-repeat;
+  background-size: cover;
+
+}
+
+.el-icon-my-zentao:before {
+  font-size: 16px;
+  visibility: hidden;
+}

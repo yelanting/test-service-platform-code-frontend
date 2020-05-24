@@ -1,0 +1,14 @@
+/**
+* 自定义图标
+*/
+.el-icon-my-zentao {
+  background: url("../assets/my-icon/zentao.jpg") center no-repeat;
+  background-size: cover;
+
+}
+
+.el-icon-my-zentao:before {
+  content: "禅道";
+  font-size: 12px;
+  visibility: hidden;
+}
